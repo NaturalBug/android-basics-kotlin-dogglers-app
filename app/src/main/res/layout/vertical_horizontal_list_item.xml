@@ -26,7 +26,7 @@
         android:layout_height="wrap_content">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/dog_image"
             android:layout_width="wrap_content"
             android:layout_height="194dp"
             android:scaleType="centerCrop"
@@ -35,7 +35,7 @@
             app:srcCompat="@drawable/tzeitel" />
 
         <TextView
-            android:id="@+id/dogName"
+            android:id="@+id/dog_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -43,28 +43,28 @@
             android:text="Tzeitel"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/imageView" />
+            app:layout_constraintTop_toBottomOf="@id/dog_image" />
 
         <TextView
-            android:id="@+id/dogAge"
+            android:id="@+id/dog_age"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp"
             android:text="@string/dog_age"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
-            app:layout_constraintStart_toStartOf="@id/dogName"
-            app:layout_constraintTop_toBottomOf="@id/dogName" />
+            app:layout_constraintStart_toStartOf="@id/dog_name"
+            app:layout_constraintTop_toBottomOf="@id/dog_name" />
 
         <TextView
-            android:id="@+id/dogHobbies"
+            android:id="@+id/dog_hobbies"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:text="@string/dog_hobbies"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@id/dogAge" />
+            app:layout_constraintTop_toTopOf="@id/dog_age" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
